@@ -1,16 +1,16 @@
-# Mini Discord Themes
 by [Saltssaumure](https://github.com/Saltssaumure)
 
-## Mini Themes
-- [Squared](/Squared)
-- [CRT](/CRT)
-- [Nitrate](/Nitrate)
+# Mini Themes
+- [Squared](https://github.com/MiniDiscordThemes/Squared) 
+- [CRT](https://github.com/MiniDiscordThemes/CRT)
+- [Nitrate](https://github.com/MiniDiscordThemes/Nitrate)
+- [Snippets](https://github.com/MiniDiscordThemes/Snippets)
 
-## Forks
-- [Pesterchum][/Pesterchum]
-- [rmkx][/rmkx]
+# Forks
+- [Pesterchum](https://github.com/MiniDiscordThemes/Pesterchum)
+- [rmkx](https://github.com/MiniDiscordThemes/rmkx)
 
-## Full Themes (on Saltssaumure)
+# Full Themes (on Saltssaumure)
 - [piOS](https://github.com/Saltssaumure/pios-discord-theme) - Superhot piOS inspired
 - [Exponent](https://github.com/Saltssaumure/xp-discord-theme) - Windows XP style
 - [Logarithm](https://github.com/Saltssaumure/xp2-discord-theme) - Another Windows XP style
