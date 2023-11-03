@@ -25,17 +25,26 @@ However, the general principles apply to most desktop client mods.
 ## Step 1: Learning general CSS
 Learning the basics of CSS by doing a few hours of not-theme projects or tutorials first. This is because working from a clean slate of nothing is easier than trying to understand what other people have written. Once you have a decent grasp of what CSS is and how you could use it, you can head over to Step 2.
 
+[webdev-20]: https://www.youtube.com/watch?v=1PnVor36_40
+[moz-css]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
+[moz-web]: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
+[w3s-css]: https://www.w3schools.com/css/default.asp
+[google-css]: https://web.dev/learn/css/s
+
 ### Tutorials
-| Link                                                                                                             | Description                                                                                                                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Web Dev Simplified's *Learn CSS in 20 minutes*](https://www.youtube.com/watch?v=1PnVor36_40)                    | A video that gives you a speedy overview of CSS.                                                                                                                                                             |
-| [Mozilla's *CSS Basics*](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) | A document similar to the video above, being a quick overview of CSS. Part of an overall [*Get started with the web*](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) tutorial. |
-| [w3schools' *CSS Tutorial*](https://www.w3schools.com/css/default.asp)                                           | A longer practical-first guide. Includes exercises and quizzes.                                                                                                                                              |
-| [Google's *Learn CSS*](https://web.dev/learn/css/)                                                               | A longer theory-first guide. Includes exercises and quizzes.                                                                                                                                                 |
+
+| Link                                                        | Description                                                           |
+| ----------------------------------------------------------- | --------------------------------------------------------------------- |
+| [Web Dev Simplified's *Learn CSS in 20 minutes*][webdev-20] | A video that gives you a speedy overview of CSS.                      |
+| [Mozilla's *CSS Basics*][moz-css]                           | A document similar to the video above, being a quick overview of CSS. |
+| [Mozilla's *Get started with the web*][moz-web]             | The context for the above CSS tutorial.                               |
+| [w3schools' *CSS Tutorial*][w3s-css]                        | A longer practical-first guide. Includes exercises and quizzes.       |
+| [Google's *Learn CSS*][google-css]                          | A longer theory-first guide. Includes exercises and quizzes.          |
 
 ### Useful reference material
 
 #### Properties
+
 | Link                                                                  | Description                                                                                        |
 | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | [w3schools](https://www.w3schools.com/cssref/index.php)               | Simple with some examples for basic usage.                                                         |
@@ -53,7 +62,7 @@ Learning the basics of CSS by doing a few hours of not-theme projects or tutoria
 ## Step 2: Writing Custom CSS and Themes
 If you know some CSS, this is the place to start.
 
-### Developer settings
+### 2.1: Developer settings
 Before beginning, DevTools is a requirement to find class names and view Discord's default styles for those classes. Open DevTools with `Ctrl + Shift + I` (windows/linux) / `Cmd + Opt + I` (mac).
 
 #### ![icon][bd] BetterDiscord
@@ -67,7 +76,7 @@ Before beginning, DevTools is a requirement to find class names and view Discord
 #### ![icon][rp] Replugged and ![icon][vc] Vencord
 No extra steps needed, DevTools is enabled by default.
 
-### Writing Custom / Quick CSS
+### 2.2: Writing Custom / Quick CSS
 1. With the ![inspect element tool](img/inspectelement.png) Inspect Element tool (top left corner of DevTools), click on an area that you want to style.
    - Clicking may not always give the exact right element, you may need to go up or down some levels in the document viewer panel.  
 ![document viewer panel](img/documentviewer.png).
@@ -85,7 +94,7 @@ No extra steps needed, DevTools is enabled by default.
 #### Notes
 - The in-app editor can be sluggish on less powerful devices, especially with `Live CSS` / `Automatically Apply Quick CSS` enabled. Try an external editor (eg. Notepad++, Nano, VSCode) if you experience issues.
 
-### Writing a theme
+### 2.3: Writing a theme
 Custom / Quick CSS can quickly get cluttered and hard to navigate, so it's better to write a theme in a separate file:
 
 #### ![icon][bd] BetterDiscord and ![icon][vc] Vencord
@@ -151,7 +160,7 @@ Using Git to track changes, and uploading the theme to GitHub, provide several b
 [git-guide]: https://docs.github.com/en/get-started/getting-started-with-git
 [gitkraken]: https://www.gitkraken.com/
 
-### Setting up the theme repository on GitHub
+### 3.1: Setting up the theme repository on GitHub
 1. [Make a GitHub account][gh-signup].
 2. Make a [new repository][gh-newrepo].
     - Set visibility to Public, to allow setting up GitHub Pages.
@@ -162,7 +171,7 @@ Using Git to track changes, and uploading the theme to GitHub, provide several b
 
 If you don't intend on making many/any changes to your theme, that's it done. Your theme can now be found at `https://accountname.github.io/RepoName/FileName`, eg. https://saltssaumure.github.io/xp-discord-theme/Exponent.theme.css.
 
-### Using Git to track your theme updates
+### 3.2: Using Git to track your theme updates
 1. [Download][git-dl] and install Git.
 2. Install [GitHub Desktop][ghdesk].
 3. [Clone your repository][ghdesk-clone] (ie, download it to your computer).
